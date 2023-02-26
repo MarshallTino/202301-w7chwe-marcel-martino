@@ -1,5 +1,11 @@
+import LoginPage from "../pages/LoginPage/LoginPage";
+
 const Layout = (): JSX.Element => {
-  return <h1>hel</h1>;
+  return (
+    <>
+      <LoginPage />
+    </>
+  );
 };
 
 export default Layout;
